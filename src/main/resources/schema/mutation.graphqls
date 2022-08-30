@@ -1,0 +1,5 @@
+type Mutation {
+    insertRecord(record : RecordInput) : RecordOutput
+    updateRecord(record : RecordInput) : RecordOutput
+    deleteRecord(id : Int) : String
+}

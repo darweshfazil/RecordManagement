@@ -1,0 +1,7 @@
+input RecordInput {
+    id : Int
+    name : String
+    age : Int
+    phone : String
+    address : String
+}

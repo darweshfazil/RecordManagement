@@ -1,0 +1,4 @@
+type Query {
+    getRecords : [RecordOutput]
+    getRecordById(id: Int): RecordOutput
+}
